@@ -199,3 +199,20 @@
       collection: ExplosionSmall
     forceSound: true
 
+- type: entity
+  id: GrapplingHookAhab
+  name: grappling hook
+  parent: GrapplingHook
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    noRot: false
+    sprite: _Mono/Objects/Weapons/Guns/Launchers/ahab.rsi
+    layers:
+    - state: hook
+  - type: Projectile
+    deleteOnCollide: false
+    damage:
+      types:
+        Piercing: 30
+        Slashing: 20

@@ -187,3 +187,53 @@
     baseDelay: 2
     modifiedDelay: 2
     preventFiring: true
+
+# Angry grappling hook.
+- type: entity
+  name: GS-003 'Ahab' harpoon gun
+  parent: [ BaseWeaponLauncher, BaseItem ]
+  id: WeaponLauncherAhab
+  description: The TSF's powerful solution to things that don't have enough boom. Capable of firing most standard grenades.
+  components:
+  - type: Sprite
+    sprite: _Mono/Objects/Weapons/Guns/Launchers/ahab.rsi
+    layers:
+    - state: base
+    - state: base-unshaded
+      map: [ "unshaded" ]
+      visible: true
+  - type: Item
+    sprite: _Mono/Objects/Weapons/Guns/Launchers/ahab_inhands_32x.rsi
+    shape:
+    - 0,0,7,4
+  - type: Clothing
+    sprite: _Mono/Objects/Weapons/Guns/Launchers/ahab_inhands_32x.rsi
+    slots:
+    - Back
+    - suitStorage
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+      enum.TetherVisualsStatus.Key:
+        unshaded:
+          True: { state: base-unshaded }
+          False: { state: base-unshaded-off }
+  - type: MultiHandedItem
+  - type: GrapplingGun
+    ropeBreakPoint: 100000 # Mono
+    reelRate: 8 # Mono
+    reelForce: 12000 # Mono
+  - type: Gun
+    projectileSpeed: 30
+    fireRate: 0.33
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/harpoon.ogg
+    soundEmpty:
+      path: /Audio/Weapons/Guns/Empty/empty.ogg
+    clumsyProof: true
+  - type: BasicEntityAmmoProvider
+    proto: GrapplingHookAhab
+    capacity: 1
