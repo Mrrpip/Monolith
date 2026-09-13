@@ -773,17 +773,20 @@
 
 - type: Tag
   id: Central
-  
+
 # Stashes
 
 - type: Tag
   id: Unstashable
-  
+
 # Map migration tags for door autorotation thing.
 
 - type: Tag
   id: DoorAutorotate
 
-
 - type: Tag
   id: MAWCScrap
+
+# Deposit box blacklist
+- type: Tag
+  id: SafetyDepositBlacklist
