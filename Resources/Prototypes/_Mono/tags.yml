@@ -783,10 +783,17 @@
 
 - type: Tag
   id: DoorAutorotate
+# Signal flare cartridge tag
 
 - type: Tag
-  id: MAWCScrap
+  id: SignalFlareLaunchable
+
+- type: Tag
+  id: SignalFlareLauncher
 
 # Deposit box blacklist
 - type: Tag
   id: SafetyDepositBlacklist
+
+- type: Tag
+  id: MAWCScrap
