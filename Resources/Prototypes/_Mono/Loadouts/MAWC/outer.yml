@@ -1,0 +1,56 @@
+- type: loadout
+  id: MawcClothingOuterHardsuitMAWCWidowmaker
+  equipment:
+    outerClothing: ClothingOuterHardsuitMAWCWidowmaker
+
+- type: loadoutGroup
+  id: MawcSeraphHardsuit
+  name: loadout-group-contractor-outerclothing
+  hidden: true # No point in showing this, it gets auto-selected.
+  loadouts:
+  - MawcClothingOuterHardsuitMAWCWidowmaker
+  fallbacks:
+  - MawcClothingOuterHardsuitMAWCWidowmaker
+
+
+- type: loadout
+  id: MawcClothingOuterHardsuitMAWCWeaver
+  equipment:
+    outerClothing: ClothingOuterHardsuitMAWCWeaver
+
+- type: loadoutGroup
+  id: MawcAcolyteHardsuit
+  name: loadout-group-contractor-outerclothing
+  hidden: true # No point in showing this, it gets auto-selected.
+  loadouts:
+  - MawcClothingOuterHardsuitMAWCWeaver
+  fallbacks:
+  - MawcClothingOuterHardsuitMAWCWeaver
+
+- type: loadout
+  id: MawcClothingOuterHardsuitMAWCCarpenter
+  equipment:
+    outerClothing: ClothingOuterHardsuitMAWCCarpenter
+
+- type: loadoutGroup
+  id: MawcCarpenterHardsuit
+  name: loadout-group-contractor-outerclothing
+  hidden: true # No point in showing this, it gets auto-selected.
+  loadouts:
+  - MawcClothingOuterHardsuitMAWCCarpenter
+  fallbacks:
+  - MawcClothingOuterHardsuitMAWCCarpenter
+
+- type: loadout
+  id: MawcClothingOuterHardsuitMAWCTermite
+  equipment:
+    outerClothing: ClothingOuterHardsuitMAWCTermite
+
+- type: loadoutGroup
+  id: MawcInitiateHardsuit
+  name: loadout-group-contractor-outerclothing
+  hidden: true # No point in showing this, it gets auto-selected.
+  loadouts:
+  - MawcClothingOuterHardsuitMAWCTermite
+  fallbacks:
+  - MawcClothingOuterHardsuitMAWCTermite
