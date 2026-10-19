@@ -784,3 +784,6 @@
 - type: Tag
   id: DoorAutorotate
 
+
+- type: Tag
+  id: MAWCScrap
