@@ -2,13 +2,14 @@
   id: JobMAWCInitiate
   groups:
   - MAWCJumpsuit
-  - ContractorBackpack
+  - VGBackpack # OK, I know this is cheap reuse, but it works for what Zethine asked.
   - MAWCGloves
   - MAWCShoes
   - MAWCMask
   - MAWCNeck
-  - MAWCOuterClothing
+  - MAWCOuterClothingInitiate
   - ContractorEars
+  - MawcSidearm
   - ContractorEncryptionKey
   - ContractorBoxSurvival
   - MAWCInitiatePDA
@@ -20,13 +21,15 @@
   id: JobMAWCAcolyte
   groups:
   - MAWCJumpsuit
-  - ContractorBackpack
+  - VGBackpack
   - MAWCGloves
   - MAWCShoes
   - MAWCMask
   - MAWCNeck
-  - MAWCOuterClothing
+  - MAWCOuterClothingAcolyte
   - ContractorEars
+  - MawcAcolyteWeapon
+  - MawcSidearm
   - ContractorEncryptionKey
   - ContractorBoxSurvival
   - MAWCAcolytePDA
@@ -38,13 +41,15 @@
   id: JobMAWCSeraph
   groups:
   - MAWCJumpsuit
-  - ContractorBackpack
+  - VGBackpack
   - MAWCGloves
   - MAWCShoes
   - MAWCMask
   - MAWCNeck
-  - MAWCOuterClothing
+  - MAWCOuterClothingSeraph
   - ContractorEars
+  - MawcAcolyteWeapon
+  - MawcSeraphSidearm
   - ContractorEncryptionKey
   - ContractorBoxSurvival
   - MAWCSeraphPDA
@@ -56,13 +61,15 @@
   id: JobMAWCCarpenter
   groups:
   - MAWCJumpsuit
-  - ContractorBackpack
+  - VGBackpack
   - MAWCGloves
   - MAWCShoes
   - MAWCMask
   - MAWCNeck
-  - MAWCOuterClothing
+  - MAWCOuterClothingCarpenter
   - ContractorEars
+  - MawcCarpenterWeapon
+  - MawcSidearm
   - ContractorEncryptionKey
   - ContractorBoxSurvival
   - MAWCCarpenterPDA

@@ -4,8 +4,8 @@ meta:
   engineVersion: 277.0.0
   forkId: ""
   forkVersion: ""
-  time: 07/26/2026 18:01:54
-  entityCount: 1709
+  time: 10/19/2026 22:43:29
+  entityCount: 1713
 maps:
 - 1
 grids:
@@ -7558,6 +7558,34 @@ entities:
     - type: Transform
       pos: -4.5,2.5
       parent: 2
+- proto: SpawnPointMAWCAcolyte
+  entities:
+  - uid: 1710
+    components:
+    - type: Transform
+      pos: -5.5,1.5
+      parent: 2
+- proto: SpawnPointMAWCCarpenter
+  entities:
+  - uid: 1711
+    components:
+    - type: Transform
+      pos: -5.5,1.5
+      parent: 2
+- proto: SpawnPointMAWCInitiate
+  entities:
+  - uid: 1712
+    components:
+    - type: Transform
+      pos: -5.5,1.5
+      parent: 2
+- proto: SpawnPointMAWCSeraph
+  entities:
+  - uid: 1713
+    components:
+    - type: Transform
+      pos: -5.5,1.5
+      parent: 2
 - proto: SpawnPointMdMedic
   entities:
   - uid: 1136
@@ -10852,13 +10880,6 @@ entities:
     - type: Transform
       pos: -2.5715644,-1.1120384
       parent: 2
-- proto: WeaponPistolN1984
-  entities:
-  - uid: 1664
-    components:
-    - type: Transform
-      pos: -2.3059394,-1.3620384
-      parent: 2
 - proto: WeaponPistolPollock
   entities:
   - uid: 1665
@@ -10880,26 +10901,29 @@ entities:
     - type: Transform
       pos: -2.5090644,0.6692117
       parent: 2
-- proto: WeaponRevolverFaith
+- proto: WeaponRevolverInspector
   entities:
   - uid: 1668
     components:
     - type: Transform
       pos: -2.3528144,-0.3151633
       parent: 2
-- proto: WeaponRevolverFitz
-  entities:
   - uid: 1669
     components:
     - type: Transform
       pos: -2.3059394,-0.5495383
       parent: 2
-- proto: WeaponRevolverLucky
-  entities:
   - uid: 1670
     components:
     - type: Transform
       pos: -2.5559394,-0.8464133
+      parent: 2
+- proto: WeaponRevolverMateba
+  entities:
+  - uid: 1664
+    components:
+    - type: Transform
+      pos: -2.3059394,-1.3620384
       parent: 2
 - proto: WeaponRifleAk
   entities:
