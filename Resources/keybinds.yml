@@ -621,3 +621,8 @@ binds:
   key: X
   mod1: Shift
 # endregion Frontier
+# Mono start
+- function: MonoSwapUnderbarrel
+  type: State
+  key: 1
+  mod1: Alt
